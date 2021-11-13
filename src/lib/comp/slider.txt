@@ -1,0 +1,28 @@
+<script>
+  import {fade} from 'svelte/transition';
+  import { Notification, notifications } from "renderless-svelte";
+  import Alert from "../lib/comp/alerts/alert1.svelte";
+  import Slider from '../lib/comp/Slider.svelte';
+  import Transition from "../lib/comp/Transition.svelte";
+  const imgs = [
+    "https://nwp-cgn.de/img/poser/sh1.png",
+    "https://nwp-cgn.de/img/poser/sh2.png",
+    "https://nwp-cgn.de/img/poser/sh3.png",
+    "https://nwp-cgn.de/img/poser/sh4.png",
+    "https://nwp-cgn.de/img/poser/sh5.png"
+  ]
+  const d = 4000;
+</script>
+
+<Notification let:payload duration={d}>
+  <Alert on:close={() => notifications.pop()}>
+    {payload}
+  </Alert>
+</Notification>
+
+
+  <section in:fade class="h-full w-full"> 
+    <!-- <h2 class="page-header bg-dark-500 text-white text-center" on:click={() => notifications.push("Squirrel 🐿️")}>Welcome Page</h2> -->
+    <Slider {imgs} /> 
+  </section>
+  

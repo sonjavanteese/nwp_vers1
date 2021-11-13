@@ -1,0 +1,25 @@
+{
+  "name": "va5",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@windicss/plugin-animations": "^1.0.9",
+    "renderless-svelte": "^1.7.0",
+    "svelte": "^3.37.0",
+    "svelte-loading-spinners": "^0.1.7",
+    "vite": "^2.6.4",
+    "vite-plugin-windicss": "^1.4.12",
+    "windicss": "^3.2.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.25.2",
+    "svelte-carousel": "^1.0.16",
+    "svelte-spa-router": "^3.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "navi": [
+        [
+            "/",
+            "Start",
+            true,
+            false
+        ],
+        [
+            "/lyrics",
+            "Database",
+            true,
+            true
+        ],
+        [
+            "/archiv",
+            "Archiv",
+            true,
+            true
+        ],
+        [
+            "/user",
+            "User",
+            true,
+            true
+        ]
+    ]
+}
