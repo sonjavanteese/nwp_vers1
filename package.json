@@ -21,5 +21,18 @@
     "@supabase/supabase-js": "^1.25.2",
     "svelte-carousel": "^1.0.16",
     "svelte-spa-router": "^3.2.0"
-  }
+  },
+  "description": "`npm init vite@latest`",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonjavanteese/nwp_vers1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonjavanteese/nwp_vers1/issues"
+  },
+  "homepage": "https://github.com/sonjavanteese/nwp_vers1#readme"
 }
